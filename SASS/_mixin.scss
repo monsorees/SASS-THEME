@@ -1,0 +1,13 @@
+@mixin generate-theme($themes){
+  @if $themes == 'theme-dark'{
+    background-color: rgb(88, 84, 84);
+    color: rgb(226, 223, 223);
+    font-family: 'open sans';
+  }
+
+  @else if $themes == 'theme-light'{
+    background-color: rgb(182, 180, 180);
+    color: rgb(15, 15, 15);
+    font-family: 'open sans';
+  }
+}
